@@ -1,0 +1,18 @@
+TASK: Look at each of the phrases below and ensure you understand what each of these
+means. For any that you do not understand, do a little research to find a definition of each
+term. This research may involve looking back over these notes, or the associated lecture
+notes. It may also involve searching for these terms on the Internet.
+
+
+● Module: A file containing Python code that you can use in other programs.
+
+● The Python Standard Library: A collection of ready-to-use tools and functions that come with Python.
+
+● Formal Parameters: Variables used in a function to represent values it needs.
+
+● Actual Parameters (argument values): Real values you give to a function when you use it.
+
+● Default and Keyword Arguments: Default values a function uses unless you say otherwise, and naming values when you use a function.
+
+● Lambda Expression: A quick way to make simple, short functions without naming them.
+

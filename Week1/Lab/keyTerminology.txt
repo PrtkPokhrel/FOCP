@@ -1,0 +1,15 @@
+TASK: Look at each of the phrases below and ensure you understand what each of these
+means. For any that you do not understand, do a little research to find a definition of each
+term. This research may involve looking back over these notes, or the associated lecture
+notes. It may also involve searching for these terms on the Internet.
+
+● Source code: Instructions written in a programming language that humans can understand.
+● Machine code:  Code understood by machine
+● Interpreter:  A program that reads and executes code line by line
+● Compiler: Program that translate high level code to machine code
+● 2GL, 3GL, 4GL: Generation of computer. 2GL(Assembly Language),3GL(Python, Java), 4GL(Javascript)
+● Executable:A file containing machine code that can be directly executed by a computer 
+● Expressions:Combinations of values and operators that produce a result in a programming language.
+● Operators and Operands: Operators are symbols that perform operations, and operands are the values they operate on.
+● Syntax Errors: Mistakes in the structure of the code 
+● Logical Errors: Mistakes in the program's logic,

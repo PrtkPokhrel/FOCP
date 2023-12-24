@@ -1,0 +1,16 @@
+TASK: Look at each of the phrases below and ensure you understand what each of these
+means. For any that you do not understand, do a little research to find a definition of each
+term. This research may involve looking back over these notes, or the associated lecture
+notes. It may also involve searching for these terms on the Internet.
+
+
+
+● Boolean Expression: Expression that evaluated if the statement is True or False
+● Relational Operator: Operator which compares value and return boolean True or False
+● Logical Operator: Performs logical operations on boolean values 
+● Operator Chaining: Using multiple operators in a single expression.
+● Ternary Operator: A short if and else statement
+● Iteration: Repeating over a code or statement
+● Nested Loop: A loop inside a loop
+
+
