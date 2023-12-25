@@ -1,0 +1,16 @@
+Key Terminology
+Understanding key terminology is important not only when programming but for
+understanding computer science in general. Certain terms, technologies and phrases will
+often re-occur when reading or learning about many computer science topics. Having an
+awareness of these is important, as it makes learning about the various subjects and
+communication with others in the field easier.
+TASK: Look at each of the phrases below and ensure you understand what each of these
+means. For any that you do not understand, do a little research to find a definition of each
+term. This research may involve looking back over these notes, or the associated lecture
+notes. It may also involve searching for these terms on the Internet.
+
+● IDE: Tool for writing code
+● Module: A file containig code specially for specific function that we can import and use
+● Command Line Arguments: Arguments passed to a program when it is run from the command line,
+● Symbol-table: A data that stores the information about indentifier
+● Search path: The search path is a list of directories that may contain programs the user wants to run.
