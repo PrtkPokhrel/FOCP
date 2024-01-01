@@ -1,0 +1,10 @@
+TASK: Look at each of the phrases below and ensure you understand what each of these
+means. For any that you do not understand, do a little research to find a definition of each
+term. This research may involve looking back over these notes, or the associated lecture
+notes. It may also involve searching for these terms on the Internet.
+
+● Set: Unordered collection of unique element  
+● Set operations: Operations that can be performed on set
+● Set comprehension: Set comprehension is a concise way to create sets in Python.
+● Dictionary: A dictionary is an unordered collection of key-value pairs in Python
+● key:value pair: It consists of two elements: a key and a corresponding value. 
