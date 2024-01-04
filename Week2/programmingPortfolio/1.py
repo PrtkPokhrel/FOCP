@@ -1,156 +1,41 @@
-#  Modify your greeting program so that if the user does not enter a name (i.e. they
-# just press enter), the program responds "Hello, Stranger!". Otherwise it should print
-# a greeting with their name as before.
+# Last week you wrote a program that printed out a cheery greeting including your
+# name. Take a copy of it, and modify it so that the user enters their name at the
+# keyboard, and then receives a greeting. For example:
+# Hello, what is your name? Mr Apricot
+# Hello, Mr Apricot. Good to meet you!
 
-"""
-userName=input("Enter your name: ")
-if userName:
-    print("Hello",userName)
-else:
-    print("Hello stranger ")
-""" 
-
-
-# Write a program that simulates the way in which a user might choose a password.
-# The program should prompt for a new password, and then prompt again. If the two
-# passwords entered are the same the program should say "Password Set" or
-# similar, otherwise it should report an error
-
-"""setPass=input('Enter your password: ')
-reEnter=input('Re enter the password: ')
-if setPass==reEnter:
-    print("Password set")
-else:
-    print("Wrong password try again")
-  """
-  
-  
-#   Modify your previous program so that the password must be between 8 and 12
-# characters (inclusive) long.  
-
-
-"""
-setPass=input('Enter your password: ')
-reEnter=input('Re enter the password: ')
-count=0
-
-for i in setPass:
-    count=count+1
-    
-if count>=8 and count<=12:
-    if setPass==reEnter:
-        print("Your password is set")
-
-elif setPass!=reEnter:
-    print("Password did not match")
-
-else :
-    print("Password is too short")
+"""userName=input("Hello, what is your name? ")
+print(f"Hello, {userName}. Good to meet you")
 """
 
+#  Write a program that prompts a user to enter a temperature in Celsius, and then
+# displays the corresponding temperature in Fahrenheit, like so:
+# Enter a temperature in Celsius: 32.5
+# 32.5C is equivalent to 90.5F.
 
 
-"""Own Question"""
-# write a python program that ask the user to enter the password and confirm it. If the password doesnot match display "Password didnot match" and if the length of password is not between 8 to 12 then display length error. There is a list of bad password that if user enters display the message "Bad Password". and the program should run until the user sucessfully enter the password
-
-"""while True:
-    userPass = input("Enter the password: ")
-    reEnter = input("Re-enter the password: ")
-    alreadyUsed = ['hello', 'password', 'admin', '123']
-    check = 0
-    countPass = 0
-
-    for i in alreadyUsed:
-        if i == userPass:
-            check = check + 1
-
-    for j in userPass:
-        countPass = countPass + 1
-
-    if check == 1:
-        print("Password already used")
-
-    elif userPass == reEnter and (countPass >= 8 and countPass <= 12):
-        print("Password set successfully")
-        break
-
-    elif userPass != reEnter:
-        print('You did not enter the same password')
-
-    elif countPass < 8:
-        print('Your password is too short')
- """
- 
- 
-#  6. Write a program that displays the "Seven Times Table". That is, the result of
-# multiplying 7 by every number from 0 to 12 inclusive. The output might start:
-# 0 x 7 = 0
-# 1 x 7 = 7
-# 2 x 7 = 14
-"""num=7
-for i in range(13):
-    print(i,"X",num,"=",num*i)
- """   
-    
-# Modify your "Times Table" program so that the user enters the number of the table
-# they require. This number should be between 0 and 12 inclusive.
-
-"""num=int(input("Enter the number:"))
-for i in range(13):
-    print(num,"X",i,"=",num*i)
-"""  
-
-
-# Write a Python program to print the following pattern:
-
-# 1
-# 22
-# 333
-# 4444
-# 55555
-
-
-
-
-# i=1
-# while i<=5:
-#     # print(i)
-#     j=i
-#     while j<=5:
-#         print(i,end='')
-#         j=j+1
-#     print("\n")
-#     i=i+1
-
-
-i = 1
-
-while i <= 5:
-    j = 1
-    while j <= i:
-        print(i, end='')
-        j = j + 1
-    print("\n")
-    i = i + 1
-
-
-
-
-
-
-"""  
-i=1  
-
-while i<=5:
-    j=1
-    while j<=5:
-        print("*",end="")
-        j=j+1
-    print("\n")
-    i=i+1
+"""temCelsius=float(input("Enter a temperature in Celsius: "))
+convert=(temCelsius*9/5)+32
+print(f"{temCelsius} is equivalent to {convert}F")
 """
-    
+
+# The Head of Computing at the University of Poppleton is tasked with dividing a
+# group of students into lab groups. A lab group is usually 24 students, but this is
+# sometimes varied to create groups of similar size. Write a program that prompts for
+# the number of students and group size, and then displays how many groups will be
+# needed and how many will be left over in a smaller group.
+# How many students? 113
+# Required group size? 22
+# There will be 5 groups with 3 students left over.
+# For bonus credit, see if you can fix the grammar in the output. So if there were 101
+# students in groups of 20 the output would be:
+# There will be 5 groups with 1 student left over.
 
 
 
+studentNum=int(input("How many students? "))
+groupSize=5
+leftStudent=studentNum%groupSize
+grouping=studentNum/groupSize
 
+print(f"There will be {int(grouping)} groups with {int(leftStudent)} student left over")
